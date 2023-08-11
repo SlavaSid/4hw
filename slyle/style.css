@@ -71,10 +71,7 @@ span {
   display: block;
   text-transform: none;
 }
-span::after {
-  content: url(../images/PathCopy2.svg);
-  margin-left: -43px;
-}
+
 h1::after {
   content: url(../images/Vector1.png);
   height: 9px;
@@ -117,6 +114,7 @@ p {
   height: 64px;
   background: #c08d5d;  
   margin-left: 11px;
+  text-align: center;
 }
 .mous{
   display: block;
