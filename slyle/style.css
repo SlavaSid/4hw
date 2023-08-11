@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+body {
+  background-color: #fffaf3;
+  background-image: url(../images/Image1.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+header {
+  padding-top: 43px;
+  padding-bottom: 43px;
+  width: 470px;
+  border-bottom: #c08d5d 1px solid;
+}
+.hapk {
+  display: inline-block;
+  margin-right: 84px;
+  margin-left: 0;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: 100%;
+  width: 300px;
+  height: 27px;
+}
+.link {
+  color: #c08d5d;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 0;
+}
+nav a {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 40px;
+}
+main {
+  padding-top: 123px;
+  padding-bottom: 69px;
+}
+h1 {
+  color: #3f4042;
+  font-family: Yeseva One;
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 4.2px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+span {
+  color: #3f4042;
+  font-family: Yeseva One;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  display: block;
+  text-transform: none;
+}
+span::after {
+  content: url(../images/PathCopy2.svg);
+  margin-left: -43px;
+}
+h1::after {
+  content: url(../images/Vector1.png);
+  height: 9px;
+  max-width: 165px;
+  display: block;  
+}
+h1 img{
+  vertical-align: sub;
+}
+p {
+  max-width: 535px;
+  color: #3f4042;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 147.6%; 
+  letter-spacing: 1.08px;
+  display: block;
+  margin-top: 26px;
+}
+.nodf {
+  display: inline-block;
+  text-decoration: none;
+  color: #3f4042;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;  
+  letter-spacing: 1.2px;
+  border: 2px solid #c08d5d;
+  background: #fffaf3;
+  line-height: 64px;
+  margin-top: 72px;
+  margin-bottom: 63px;
+  padding-left: 15px;
+}
+.nodf:after {
+  content: url(../images/Vector2.svg);
+  display: inline-block;
+  width: 59px;
+  height: 64px;
+  background: #c08d5d;  
+  margin-left: 11px;
+}
+.mous{
+  display: block;
+ text-align: center;
+}
+
